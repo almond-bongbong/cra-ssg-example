@@ -4,16 +4,13 @@
 
 ```json
 {
-    // ...
-    "scripts": {
-        // ...
-        "build": "react-scripts build",
-        "postbuild": "react-snap",
-    },
-    "reactSnap": {
-        "crawl": false,
-        "include": [
-            "/about"
-        ]
-    },
+  "scripts": {
+    "build": "react-scripts build",
+    "postbuild": "react-snap"
+  },
+  "reactSnap": {
+    "crawl": false,
+    "include": ["/about"]
+  }
 }
+```
